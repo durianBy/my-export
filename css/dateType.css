@@ -1,0 +1,494 @@
+.left{
+    float:left;
+}
+ul {
+    margin: 0;
+    list-style: none;
+}
+.datepicker-wrap > input,
+.datepicker-wrap > div {
+    float: left;
+}
+.form-control {
+    padding: 3px 12px;
+    height: 28px;
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: #cbd5dd;
+}
+.datepicker-wrap .form-control {
+    width: 150px;
+    margin-right: 5px;
+}
+
+.datepicker-wrap .date-week {
+    width: 220px;
+}
+
+.datepicker[readonly],
+.dropdown-text[readonly] {
+    padding-right: 25px;
+    background-color: #fff;
+    border-color: #cbd5dd;
+    color: #444;
+    cursor: pointer;
+}
+
+.datepicker[readonly]:focus,
+.dropdown-text[readonly]:focus {
+    border-color: #66afe9;
+}
+/*revenue样式--START--*/
+.stats-revenue > div {
+    margin-bottom: 15px;
+}
+
+.head-condition-area {
+    margin-bottom: 10px;
+}
+
+.head-condition {
+    padding: 6px 6px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .05);
+}
+
+.area-select {
+    position: relative;
+}
+
+.head-condition .area-select > div {
+    font-size: 14px;
+}
+
+.area-select-wrap {
+    position: absolute;
+    width: 500px;
+    padding: 10px;
+    background: #fff;
+    z-index: 999;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .1);
+}
+
+.area-select .area-select-wrap {
+    display: none;
+}
+
+/*.area-select-content{*/
+/*width:500px;*/
+/*height:400px;*/
+/*}*/
+.head-condition > div,
+.head-condition > ul {
+    display: inline-block;
+}
+
+.head-condition > div {
+    font-size: 0;
+}
+
+.dateType,
+.date-input {
+    vertical-align: middle;
+}
+
+.date-input input {
+    width: 220px;
+    height: 28px;
+}
+
+.date-input .form-control[readonly] {
+    background-color: #fff;
+    color: #555;
+    border-color: #cbd5dd;
+}
+
+#iep-revenue-year {
+    width: 115px;
+}
+
+.statistics-btn {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dateType > li {
+    position: relative;
+    float: left;
+    font-size: 14px;
+    margin-left: -1px;
+}
+
+.dateType > li:first-child {
+    margin-left: 0;
+}
+
+.dateType > li:hover {
+    z-index: 10;
+}
+
+.dateType > li.active {
+    z-index: 20;
+}
+
+.dateType > li.active > a {
+    color: #fff;
+    background: #13B0F5;
+    border-color: #13B0F5;
+}
+
+.dateType > li > a {
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 26px;
+    border: 1px solid #cbd5dd;
+    transition: .25s;
+}
+
+.dateType > li:hover > a {
+    border-color: #13B0F5;
+}
+
+.dateType > li:first-child > a {
+    border-radius: 2px 0 0 2px;
+}
+
+.dateType > li:last-child > a {
+    border-radius: 0 2px 2px 0;
+}
+
+.revenue-season {
+    padding-right: 24px;
+}
+
+.area-select-btn {
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.area-select-btn span,
+.area-select-btn i {
+    vertical-align: middle;
+}
+
+.chart-car-income {
+    width: 600px;
+    height: 400px;
+    background: #ccc;
+}
+
+.date-select > * {
+    margin-right: 5px;
+}
+
+.date-select-btn input {
+    width: 200px;
+}
+
+.no-data {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 107px;
+    bottom: -15px;
+    min-height: 280px;
+    font-size: 26px;
+    color: #ebebeb;
+}
+
+.no-data:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 186px;
+    height: 204px;
+    margin-left: -93px;
+    margin-top: -140px;
+    background: url(../../common/img/no-data.png) no-repeat;
+}
+
+.no-data:after {
+    content: "暂无数据";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 186px;
+    margin-left: -93px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+/*固定车营收--START--*/
+
+.data-name {
+    border-bottom: solid 1px #ccc;
+}
+
+.data-name {
+    padding: 4px 10px;
+}
+
+.data-name span {
+    font-size: 14px;
+    color: #999;
+}
+
+.chart-wrap .export-btn {
+    margin: 4px 0;
+    border: none;
+    color: #888;
+    cursor: pointer;
+}
+
+.chart-wrap .export-btn span {
+    position: relative;
+    top: 2px;
+}
+
+.revenue-data-content {
+    padding: 10px 30px;
+}
+
+.chart {
+    height: 320px;
+    width: 100%;
+}
+
+.chart-wrap {
+    position: relative;
+}
+
+.switch-chart {
+    position: absolute;
+    right: 50%;
+    top: 10px;
+    margin-right: -59px;
+    color: #9a9a9a;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.switch-chart a {
+    display: block;
+    float: left;
+    margin-left: -1px;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    border: solid 1px #ccc;
+}
+
+.switch-chart a:first-child {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.switch-chart a:last-child {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.switch-chart a.active {
+    color: #fff;
+    background: #888;
+    border-color: #888;
+}
+
+/*固定车营收--END--*/
+
+.exportData-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #139AF6;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    z-index: 99;
+}
+
+/*revenue样式--END--*/
+
+/*Edit By ZhengJunling 2016-05-24 -----------------区域选择样式*/
+.dropdown-areaSelect {
+    margin-right: 10px;
+}
+
+.dropdown-areaSelect .btn {
+    font-weight: 600;
+}
+
+.dropdown-areaSelect .btn:active,
+.dropdown-areaSelect .btn.active {
+    box-shadow: none;
+}
+
+.dropdown-areaSelect .dropdown-menu {
+    overflow:auto;
+    box-sizing: content-box;
+    position: absolute;
+    width: 230px;
+    max-height: 260px;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+.dropdown-areaSelect .dropdown-menu .ztree-wrap{
+    margin-top: 5px;
+}
+
+.stats-container {
+    display: none;
+}
+
+.estate-select-list {
+    display: none;
+    margin-top: 4px;
+}
+
+.estate-select-list li {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.estate-select-list li > span {
+    display: block;
+    min-width: 60px;
+    max-width: 120px;
+    padding: 3px 15px;
+    border-radius: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: .25s;
+    cursor: default;
+}
+
+.estate-select-list li .del-badge {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    right: -8px;
+    top: -4px;
+    background: #ff4e51;
+    line-height: 16px;
+    color: #fff;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.estate-select-list li:first-child > span {
+    background: #f4a563;
+}
+
+.estate-select-list li:nth-child(2) > span {
+    background: #80c2f2;
+}
+
+.estate-select-list li:nth-child(3) > span {
+    background: #b09cd7;
+}
+
+.estate-select-list li:nth-child(4) > span {
+    background: #fe7e7d;
+}
+
+.estate-select-list li:nth-child(5) > span {
+    background: #69d2d5;
+}
+
+/*Edited End*/
+
+/*基础报表表格样式重置—START—*/
+.revenue-table thead tr th {
+    border-left: solid 1px #E2E9ED;
+}
+
+.bootstrap-table .table.revenue-table:not(.table-condensed) > tbody > tr > th,
+.bootstrap-table .table.revenue-table:not(.table-condensed) > tfoot > tr > th,
+.bootstrap-table .table.revenue-table:not(.table-condensed) > tbody > tr > td,
+.bootstrap-table .table.revenue-table:not(.table-condensed) > tfoot > tr > td {
+    padding: 3px;
+}
+
+/*基础报表表格样式重置—END—*/
+.chart-box {
+    height: 360px;
+}
+
+/*对账单样式编写*/
+.incomeType-chart-legend {
+    margin-top: 41px;
+}
+
+.paymentChannel-chart-legend {
+    margin-top: 28px;
+}
+
+.panel-heading .export-btn{
+    margin-right:20px;
+    cursor:pointer;
+}
+.panel-heading .export-btn span{
+    line-height:43px;
+}
+
+.message-filter .alert{
+    margin-bottom:15px;
+}
+
+
+/*品质管控页面样式--START--*/
+.check-chart-legend{
+    margin-top: 25px;
+}
+.check-chart-legend .lengend-head{
+    margin-bottom:10px;
+}
+.average-score-box{
+    margin: 0 auto;
+    margin-top:13px;
+    padding-top:28px;
+    width:104px;height:104px;
+    border-radius: 52px;
+}
+.average-score-box div{
+    text-align: center;
+    color:#fff;
+}
+.average-score-box .score{
+    font-size:18px;
+    font-weight: bold;
+}
+.average-score-box .name{
+    font-size:14px;
+}
+.average-score-box.plus{
+    background:#44D779;
+}
+.average-score-box.minus{
+    background:#f99c4a;
+}
+.average-score-legend{
+    margin-top:41px;
+}
+/*品质管控页面样式--END--*/
